@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f3fc;
+  background: url('school-photo.jpg') no-repeat center center/cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background: #cba7e8;
+  color: white;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #7d5ba6;
+  border-bottom: 2px solid #7d5ba6;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.models {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.model-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.model-card h3 {
+  color: #7d5ba6;
+  margin-top: 0;
+}
+
+.interactive form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 300px;
+}
+
+button {
+  background: #7d5ba6;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6d4a96;
+}
+
+footer {
+  text-align: center;
+  background: #7d5ba6;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.operations {
+  background: rgba(255, 255, 255, 0.8); /* Transparent white */
+
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+
+.operations h2 {
+  color: #7d5ba6;
+}
